@@ -1,0 +1,80 @@
+
+
+.bg-ger{
+    background: orange;
+}
+
+.ct-ger{
+    margin-top:  2rem;
+
+ 
+}
+
+.slogan { 
+    color: orange;
+    animation: move 2s ease-in-out infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, -20%);
+    }
+
+    50% {
+        text-shadow: 0 25px 50px black;
+    }
+}
+
+.car-ger{
+    margin-top: 1rem;
+    padding-left:33.3333%;
+
+}
+
+.contenedorMarcas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+
+    .footer-contacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgb(218, 216, 216);
+    }
+
+  
+    
+    .footer-contacto--item{
+        
+        margin: 3rem;
+        background-color: orange;
+        border-radius: 10px;
+        transition: all 0.5s;
+        
+    }
+    .wsp{
+        width: 80px;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+    .footer-contacto--item:hover {
+
+        background-color: rgb(226, 102, 65) ;
+        transform: scale(1.2); 
+    }
+
+    .logo{
+        transition: all 1.5s;
+    }
+    
+    .logo:hover {
+        transform: scale(1.2); 
+    }
+
+   
